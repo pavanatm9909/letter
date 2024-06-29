@@ -2,7 +2,7 @@
 
 const wrapper = document.querySelector(".wrapper");
 const isPlay = false;
-var audio = document.getElementById('song');
+let audio = new Audio("Adigaa1.mp3");
 wrapper.addEventListener("click", () => {
   wrapper.classList.toggle("open");
   if (audio.paused) {
